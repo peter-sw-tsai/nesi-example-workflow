@@ -3,6 +3,8 @@ This repository contains set of slurm scripts used for processing and analysing 
 The germline analysis performed using DeepVariant v1.5.0 on the "normal" sample whereas the somatic snvs/indels are called using VarScan2.4.6
 Please modify it accordingly based on the environment
 
+*Resource allocation and account info in each slurm script needs to be modifed*
+
 Step 1. Trimming with fastp `1_fastp_array.sl`
 
 Step 2. Aligning against reference genome with BWA `2_bwa_array.sl`
