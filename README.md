@@ -1,5 +1,6 @@
 # Example workflow
-This repository contains set of slurms scripts used for processing and analysing short read whole genome sequencing dataset.
+This repository contains set of slurm scripts used for processing and analysing short read whole genome sequencing dataset.
+The germline analysis performed using DeepVariant v1.5.0 on the "normal" sample whereas the somatic snvs/indels are called using VarScan2.4.6
 Please modify it accordingly based on the environment
 
 Step 1. Trimming with fastp `1_fastp_array.sl`
